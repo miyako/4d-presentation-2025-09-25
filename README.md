@@ -6,3 +6,10 @@
 
 * [Demo_AI_Similarities](https://github.com/miyako/Demo_AI_Similarities)
   * original: [4d-depot/Demo_AI-Similarities](https://github.com/4d-depot/Demo_AI-Similarities)
+
+
+## Recursive Dependency Management
+
+1. 依存関係に[Apple](https://github.com/miyako/Apple)を登録する
+1. 再起動する
+1. りんご・ごりら・らっぱ・ぱんだが再帰的にインストールされる
