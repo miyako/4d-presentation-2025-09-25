@@ -17,3 +17,5 @@
 ### Tip
 
 * need to set `UseStandardZip` to `True` in beta for Dependency Manager to find `dependencies.json` inside `.4DZ`.
+
+* [依存関係のローカルキャッシュ](https://developer.4d.com/docs/ja/Project/components#依存関係のローカルキャッシュ)
