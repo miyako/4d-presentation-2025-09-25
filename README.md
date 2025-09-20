@@ -18,6 +18,4 @@
 
 * need to set `UseStandardZip` to `True` in beta for Dependency Manager to find `dependencies.json` inside `.4DZ`.
 
-* `PackProject` must be set to `False` for GitHub components.
-
 * [依存関係のローカルキャッシュ](https://developer.4d.com/docs/ja/Project/components#依存関係のローカルキャッシュ)
