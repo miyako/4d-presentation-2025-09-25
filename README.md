@@ -14,8 +14,7 @@
 1. 再起動する
 1. りんご・ごりら・らっぱ・ぱんだが再帰的にインストールされる
 
-#### Tip
-
-* need to set `UseStandardZip` to `True` in beta for Dependency Manager to find `dependencies.json` inside `.4DZ`.
+> [!TIP]
+> set `UseStandardZip` to `True` for Dependency Manager to find `dependencies.json` inside `.4DZ` in beta. this limitation should be fixed in production.
 
 * [依存関係のローカルキャッシュ](https://developer.4d.com/docs/ja/Project/components#依存関係のローカルキャッシュ)
