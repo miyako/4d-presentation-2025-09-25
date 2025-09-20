@@ -14,7 +14,7 @@
 1. 再起動する
 1. りんご・ごりら・らっぱ・ぱんだが再帰的にインストールされる
 
-### Tip
+#### Tip
 
 * need to set `UseStandardZip` to `True` in beta for Dependency Manager to find `dependencies.json` inside `.4DZ`.
 
