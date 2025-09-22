@@ -26,6 +26,9 @@ Case of
 				
 				Form:C1466.Table_1.col:=$col
 				
+				OBJECT SET VALUE:C1742("Header1"; 0)
+				OBJECT SET VALUE:C1742("Header2"; 0)
+				
 			: ($event.objectName="UUID v7")
 				
 				$col:=[]
@@ -34,6 +37,9 @@ Case of
 				End for 
 				
 				Form:C1466.Table_1.col:=$col
+				
+				OBJECT SET VALUE:C1742("Header1"; 0)
+				OBJECT SET VALUE:C1742("Header2"; 0)
 				
 			: ($event.objectName="createRecords")
 				
@@ -44,6 +50,9 @@ Case of
 				End for 
 				
 				Form:C1466.Table_1.col:=ds:C1482.Table_1.all()
+				
+				OBJECT SET VALUE:C1742("Header1"; 0)
+				OBJECT SET VALUE:C1742("Header2"; 0)
 				
 			: ($event.objectName="openDatabaseSettings")
 				OPEN SETTINGS WINDOW:C903("/Database/Database/Data storage"; True:C214)
