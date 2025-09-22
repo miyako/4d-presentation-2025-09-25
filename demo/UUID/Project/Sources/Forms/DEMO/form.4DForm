@@ -62,13 +62,15 @@
 					],
 					"class": "large"
 				},
-				"List Box": {
+				"UUID": {
 					"type": "listbox",
 					"left": 20,
 					"top": 251,
 					"width": 566,
 					"height": 251,
-					"events": [],
+					"events": [
+						"onHeaderClick"
+					],
 					"horizontalLineStroke": "transparent",
 					"verticalLineStroke": "transparent",
 					"resizingMode": "legacy",
@@ -82,7 +84,8 @@
 					"currentItemSource": "Form:C1466.Table_1.item",
 					"currentItemPositionSource": "Form:C1466.Table_1.pos",
 					"selectedItemsSource": "Form:C1466.Table_1.sel",
-					"staticColumnCount": 2,
+					"staticColumnCount": 3,
+					"method": "ObjectMethods/UUID.4dm",
 					"columns": [
 						{
 							"header": {
@@ -115,6 +118,21 @@
 							"truncateMode": "none",
 							"dataSource": "Form:C1466.canonical(This:C1470.UUID)",
 							"class": "large code"
+						},
+						{
+							"header": {
+								"name": "Header3",
+								"text": "Header3"
+							},
+							"name": "Column3",
+							"footer": {
+								"name": "Footer3"
+							},
+							"enterable": false,
+							"resizable": false,
+							"dataSource": "This:C1470.UUID",
+							"truncateMode": "none",
+							"visibility": "hidden"
 						}
 					]
 				},
@@ -143,7 +161,7 @@
 			}
 		}
 	],
-	"geometryStamp": 101,
+	"geometryStamp": 102,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",
