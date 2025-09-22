@@ -1,0 +1,25 @@
+button {
+	focusable: false;
+}
+button.large {
+	font-size: 20;
+}
+column.large {
+	font-size: 20;
+}
+.code {
+	font-family: menlo;
+}
+text.label {
+	color:  #7070F0;
+	text-align: right;
+}
+#openDatabaseSettings {
+	text: "データベース設定";
+}
+#createRecords {
+	text: "レコード追加";
+}
+#restartProject {
+	text: "データベース再起動";
+}

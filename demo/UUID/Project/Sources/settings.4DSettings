@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><preferences stamp="6">
+	<com.4d>
+		<database>
+			<data_storage auto_uuid_version="4"/>
+		</database>
+		<compiler>
+			<options target="all"/>
+		</compiler>
+	</com.4d>
+</preferences>

@@ -1,0 +1,155 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"css": [
+		"/SOURCES/main.css"
+	],
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 606,
+	"windowMinHeight": 522,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onClick",
+		"onUnload"
+	],
+	"windowTitle": "",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"UUID v4": {
+					"type": "button",
+					"text": "UUID v4",
+					"top": 40,
+					"left": 20,
+					"width": 266,
+					"height": 45,
+					"events": [
+						"onClick"
+					],
+					"class": "large"
+				},
+				"UUID v7": {
+					"type": "button",
+					"text": "UUID v7",
+					"top": 40,
+					"left": 360,
+					"width": 226,
+					"height": 45,
+					"events": [
+						"onClick"
+					],
+					"class": "large"
+				},
+				"openDatabaseSettings": {
+					"type": "button",
+					"top": 100,
+					"left": 20,
+					"width": 266,
+					"height": 45,
+					"events": [
+						"onClick"
+					],
+					"class": "large"
+				},
+				"List Box": {
+					"type": "listbox",
+					"left": 20,
+					"top": 251,
+					"width": 566,
+					"height": 251,
+					"events": [],
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"resizingMode": "legacy",
+					"movableRows": false,
+					"sortable": true,
+					"alternateFill": "automaticAlternate",
+					"listboxType": "collection",
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "Form:C1466.Table_1.col",
+					"currentItemSource": "Form:C1466.Table_1.item",
+					"currentItemPositionSource": "Form:C1466.Table_1.pos",
+					"selectedItemsSource": "Form:C1466.Table_1.sel",
+					"staticColumnCount": 2,
+					"columns": [
+						{
+							"header": {
+								"text": "Sequence",
+								"name": "Header1"
+							},
+							"name": "Column1",
+							"footer": {
+								"name": "Footer1"
+							},
+							"enterable": false,
+							"resizable": false,
+							"truncateMode": "none",
+							"dataSource": "This:C1470.Sequence",
+							"dataSourceTypeHint": "number",
+							"class": "large code",
+							"width": 80
+						},
+						{
+							"header": {
+								"name": "Header2",
+								"text": "UUID"
+							},
+							"name": "Column2",
+							"footer": {
+								"name": "Footer2"
+							},
+							"resizable": false,
+							"enterable": false,
+							"truncateMode": "none",
+							"dataSource": "Form:C1466.canonical(This:C1470.UUID)",
+							"class": "large code"
+						}
+					]
+				},
+				"createRecords": {
+					"type": "button",
+					"top": 160,
+					"left": 20,
+					"width": 266,
+					"height": 45,
+					"events": [
+						"onClick"
+					],
+					"class": "large"
+				},
+				"restartProject": {
+					"type": "button",
+					"top": 100,
+					"left": 360,
+					"width": 226,
+					"height": 45,
+					"events": [
+						"onClick"
+					],
+					"class": "large"
+				}
+			}
+		}
+	],
+	"geometryStamp": 101,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"method": "method.4dm"
+}
