@@ -1,0 +1,40 @@
+{
+	"privileges": [
+		{
+			"privilege": "none",
+			"includes": []
+		},
+		{
+			"privilege": "demo"
+		}
+	],
+	
+	"roles": [],
+	
+	"permissions": {
+		"allowed": [
+			{
+				"applyTo":"ds",
+				"type": "datastore",
+				"read": ["none"],
+				"create": ["none"],
+				"update": ["none"],
+				"drop": ["none"],
+				"execute": ["none"],
+				"promote": ["none"]
+			},
+			{
+				"applyTo": "Product",
+				"type": "dataclass",
+				"read": ["demo"],
+				"create": ["demo"],
+				"update": ["demo"],
+				"drop": ["demo"],
+				"execute": ["demo"],
+				"promote": ["demo"]
+			}
+		]
+	},
+
+	"forceLogin": true
+}
