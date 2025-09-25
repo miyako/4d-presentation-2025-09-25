@@ -1,0 +1,19 @@
+{
+	"tables": {
+		"Product": {
+			"color": {
+				"red": 255,
+				"green": 255,
+				"blue": 255,
+				"alpha": 0
+			},
+			"coordinates": {
+				"left": 32.453125,
+				"top": 0,
+				"width": 202.8203125,
+				"height": 330.84375
+			},
+			"displayable_fields_count": 13
+		}
+	}
+}
