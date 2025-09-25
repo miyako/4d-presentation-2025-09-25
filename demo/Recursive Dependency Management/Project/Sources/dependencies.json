@@ -1,8 +1,3 @@
 {
-	"dependencies": {
-		"Apple": {
-			"github": "miyako/Apple",
-			"version": "latest"
-		}
-	}
+	"dependencies": {}
 }
