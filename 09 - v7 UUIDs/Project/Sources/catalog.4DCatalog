@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="UUID" uuid="019971E86F1B7CC8A2723B5D3F87E481" collation_locale="ja">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="Table_1" uuid="019971F046567BF7BA4DB5B0AAD24827" id="1" prevent_journaling="true">
+		<field name="UUID" uuid="019971F046587883BB8307B0AE0B24FC" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
+		<field name="Sequence" uuid="019971F52D9D7564B1AD76C9C74EFEFF" type="4" autosequence="true" id="2"/>
+		<primary_key field_name="UUID" field_uuid="019971F046587883BB8307B0AE0B24FC"/>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="019971F0C4D47316AE4A1EA0A9FFD052" type="1">
+		<field_ref uuid="019971F046587883BB8307B0AE0B24FC" name="UUID">
+			<table_ref uuid="019971F046567BF7BA4DB5B0AAD24827" name="Table_1"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="019971F56CB27981BC70B83443FF5936" type="1">
+		<field_ref uuid="019971F52D9D7564B1AD76C9C74EFEFF" name="Sequence">
+			<table_ref uuid="019971F046567BF7BA4DB5B0AAD24827" name="Table_1"/>
+		</field_ref>
+	</index>
+	<base_extra>
+		<journal_file journal_file_enabled="false"/>
+	</base_extra>
+</base>

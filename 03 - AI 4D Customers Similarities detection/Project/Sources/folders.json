@@ -1,0 +1,61 @@
+{
+	"AI": {
+		"classes": [
+			"AI",
+			"AI_AddressFormatter",
+			"AI_Agent",
+			"AI_DataGenerator",
+			"AI_Vectorizer"
+		]
+	},
+	"Demo": {
+		"methods": [
+			"menu"
+		],
+		"forms": [
+			"menu"
+		],
+		"classes": [
+			"address",
+			"form",
+			"formCreateCustomer",
+			"formIntro",
+			"formSearchSimilarities",
+			"formVectorize"
+		]
+	},
+	"HDI": {
+		"methods": [
+			"00_Start"
+		],
+		"forms": [
+			"HDI"
+		]
+	},
+	"ORDA": {
+		"tables": [
+			"customer",
+			"embeddingInfo",
+			"providerSettings"
+		],
+		"classes": [
+			"customer",
+			"customerEntity",
+			"DataStore",
+			"embeddingInfo",
+			"embeddingInfoEntity",
+			"providerSettings",
+			"providerSettingsEntity"
+		]
+	},
+	"Settings": {
+		"methods": [
+			"settings",
+			"settings_sandbox"
+		],
+		"classes": [
+			"providerSettingsSB"
+		]
+	},
+	"trash": {}
+}
