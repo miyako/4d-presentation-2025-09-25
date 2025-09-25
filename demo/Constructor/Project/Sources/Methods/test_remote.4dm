@@ -27,4 +27,5 @@ End if
 var $status : Object
 var $product : 4D:C1709.Entity
 $product:=$demo.Product.new()
+$product.comment:="じゃあああ"
 $status:=$product.save()

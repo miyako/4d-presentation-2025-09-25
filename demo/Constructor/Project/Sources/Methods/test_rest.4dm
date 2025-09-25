@@ -40,5 +40,5 @@ If (Storage:C1525.cookie#Null:C1517)
 End if 
 
 $URL:=["http:"; ""; "127.0.0.1"; "rest"; "Product?$method=update"].join("/")
-$status:=HTTP Request:C1158(HTTP POST method:K71:2; $URL; {name: Null:C1517}; $response; $names; $values)
-//$status:=HTTP Request(HTTP POST method; $URL; {name: "あかいきつね"; price: 100}; $response; $names; $values)
+//$status:=HTTP Request(HTTP POST method; $URL; {name: Null}; $response; $names; $values)
+$status:=HTTP Request:C1158(HTTP POST method:K71:2; $URL; {comment: "ぎゃあああ"; name: "あかいきつね"; price: 100}; $response; $names; $values)
