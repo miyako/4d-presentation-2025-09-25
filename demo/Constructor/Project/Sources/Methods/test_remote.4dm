@@ -9,7 +9,7 @@ If (Not:C34($ws.isRunning))
 		HTTPPort: 80; \
 		keepSession: False:C215; \
 		debugLog: 7}
-	$ws.start()
+	$ws.start($options)
 End if 
 var $demo : 4D:C1709.DataStoreImplementation
 $demo:=ds:C1482("demo")
