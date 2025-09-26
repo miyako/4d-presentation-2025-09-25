@@ -8,7 +8,6 @@ Function query 黒字/*計算属性*/($e : Object) : Object
 	
 	var $operator : Text
 	$operator:=$e.operator
-	var $margin : Boolean
 	
 	var $黒字 : Boolean
 	Case of 
